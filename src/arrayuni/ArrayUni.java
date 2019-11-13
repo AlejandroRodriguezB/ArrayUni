@@ -5,17 +5,27 @@
  */
 package arrayuni;
 
-/**
- *
- * @author alumno
- */
+
 public class ArrayUni {
 
-    /**
-     * @param args the command line arguments
-     */
+    private void inicio(){
+    int[] array;
+    array = new int[5];
+    array[0]=1;
+    array[1]=2;
+    array[2]=3;
+    array[3]=4;
+    array[4]=5;
+    int fin=array.length;
+    
+        for(int w =0;w<fin;w++){
+            System.out.println(array[w]);
+        }
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        ArrayUni var = new ArrayUni();
+        var.inicio();
     }
     
 }
