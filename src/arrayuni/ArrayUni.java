@@ -35,7 +35,11 @@ public class ArrayUni {
             System.out.println();
             
         }     
-        
+    //transformar una string a array y leerla
+    CosasToLocas var = new CosasToLocas();
+    String fraseStr = var.llegirLinia();
+    char[] frasechar = fraseStr.toCharArray();
+    System.out.print(frasechar[0]+" " +frasechar[1]+" " +frasechar[2]+" " +frasechar[3]);
         
     }
     
