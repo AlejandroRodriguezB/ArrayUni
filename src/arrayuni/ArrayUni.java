@@ -40,7 +40,17 @@ public class ArrayUni {
     String fraseStr = var.llegirLinia();
     char[] frasechar = fraseStr.toCharArray();
     System.out.print(frasechar[0]+" " +frasechar[1]+" " +frasechar[2]+" " +frasechar[3]);
-        
+    
+    /*Persona mujer = new Persona("Maria","Un",434);
+    Persona bebe = new Persona("El","Pepis");
+    Persona unknown = new Persona();
+    System.out.println(mujer.datos());
+    System.out.println(bebe.datos());
+    System.out.println(unknown.datos());
+    bebe.setAge(20);
+    System.out.println(bebe.datos());
+    System.out.println(Persona.numePersonasCreadas());
+    */
     }
     
     public static void main(String[] args) {
