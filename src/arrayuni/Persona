@@ -62,5 +62,9 @@ public class Persona {
     public static int numePersonasCreadas(){
     return contadorPersona;
     }
+    //operacion para solo nombre y apellido
+    public String nomAppll(){
+        return name + surname;
+    }
             
 }
